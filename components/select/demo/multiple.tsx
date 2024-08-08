@@ -22,7 +22,7 @@ const App: React.FC = () => (
       allowClear
       style={{ width: '100%' }}
       placeholder="Please select"
-      defaultValue={['a10', 'c12']}
+      defaultValue={['Denver, CO']}
       onChange={handleChange}
       options={options}
     />
